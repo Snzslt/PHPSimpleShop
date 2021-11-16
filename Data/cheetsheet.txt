@@ -1,0 +1,149 @@
+CHEAT SHEET
+Zahra Soltani
+
+
+•	Download the fciv from the Microsoft website:
+•	https://www.microsoft.com/en-us/download/details.aspx?id=11533
+•	 Run the FCIV installer: write down the folder where you extract the files(c:fciv\fciv.exe)
+•	Download XAMPP: 7.4
+•	https://www.apachefriends.org/download.html
+•	c:\Users\Sanaz\Downloads\Windows-KB841290-	x86-ENU.exe
+•	c:\Users\Sanaz\Downloads\xampp-windows-x64-7.4.13-1-VC15-installer.exe
+•	 Launch a command prompt
+•	in CMD type the following command (change folders accordingly)
+•	c:\fciv\fciv.exe   -sha1    c:\Users\Sanaz\Downloads\xampp-windows-x64-7.4.13-1-VC15-installer.exe
+•	 copy the sha1 checksum (without the trailing space)
+ go back to the XAMP download page and click view page source
+•	 search in the HTML source code for the checksum you copied by pressing ctrl+f and finding the copied key
+•	if the checksums are identical, install XAMPP
+c:\XAMPP
+Port 8088: HTTP
+
+•	download "RHash for windows" from sourceforge.net
+•	extract the z.pi file in the folder
+•	download Netbeans from Apache website
+•	download 64 bites version of most recent software
+•	get the checksum of the binary packages
+•	c:\rhash\rhash.exe --sha256 c:\users\jf\downloads\npp...
+•	if checksum is valid, install Netbeans 
+
+
+
+
+Strings
+
+The length of the first name is? characters
+
+strlen($firstname)
+mb_strlen($firstname) --> For accents, multi byte version
+
+  substr(string, StartPosition, length)
+strpos(string, search): it return the position of #
+$position = strpos($product,"#");
+substr($product,$position)
+
+Extract just one part of the string
+substr(string, position)
+position starts at 0
+
+str_replace(search, replace, complete-string)
+
+1.replace HTML with Hypertext Markup Language in the following sentence:
+
+2. replace XHTML with "Extensible Hepertext Markup Language" in the following sentence:
+
+I know how to write HTMLand XHTML code
+replace Dr with Doctor in the following names:
+
+explode(separator, string)
+
+
+$string = null;
+
+$result = settype($string, "boolean");
+settype will return true or false. True is when the conversion happens successfully and the variable is modified.
+
+
+1. DATE
+in Canada: d/m/y 20/1/2021
+in US:     m/d/y
+
+
+JSON: JavaScript Object Notation
+json is to manage objects
+ENCODE
+DECODE
+
+
+Using port 8088 
+
+Object contains: 
+Properties(variables)
+Methods(functions)
+
+So imp: <meta charset=“UTF-8”> 
+
+Using Git: 
+ 1. Create an empty project
+ 2. select Team/Git/Initialize repository
+ 3. Make sure the correct folder is selected. If not, click Browser and select it ( they create .git folder) 
+ 4. at the end of every day of work, right click the project, select GIT -> commit
+ 5. Type-in commit message and commit your work
+
+Green:add
+Blue: modify
+Red:Delete
+
+*We have to use constant for every path in our project
+
+Use requre_once always
+
+Use $_POST betther than $_GET
+-checkout: take the database and put my local file on this one. Sync my local files to a specific version
+<?php     open the php tag - brings me back to php
+?>        close the php tag(to start css code) 
+
+<form>
+GET and POST methods receive data in the network: 
+action is the attribute to specify which page we want to open  
+To communicate in the network always there is two methods: GET - POST
+GET: is a URL
+when you type anything in the url and press enter it's get. So with GET the parameters are in the URL
+-GET has limit in searching characters 
+-when we use GET, it saves in the browsers history
+-We see the parameters in the url that is not secure
+
+POST:
+Sensitive information always use POST
+-It is secure and do not save the history
+To see request headers and response headers in the form
+-press F12
+-click on Network
+-click on index.php
+
+
+Relative path (relative to the CURRENT WORKING FOLDER)
+.. : previous folder
+. : current folder
+
+\ is used to separate in windows
+/ is used to seperate in other systems, linux, unit
+
+Never use absslute paths in a website / relative path
+
+How to recognize absolute path:
+A:\
+Z:\
+\Windows\
+
+
+absoulute path in Linux starts with /.
+root user : Bob Julie root(administrator)
+
+c:\users\snzst\Download\rhash.exe --sha512 c:\u... by Jean-Francois Parent
+Jean-Francois Parent
+1:55 PM
+c:\users\jf\Desktop\rhash.exe --sha512 c:\users\jf\Downloads\Apache-NetBeans-12.2-bin-windows-x64.exe
+
+
+

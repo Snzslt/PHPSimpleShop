@@ -1,0 +1,270 @@
+/*css for footer part*/
+.footer{
+  text-align: center;
+  background-color:#333;
+  height: 7%;
+  margin-top:5%;
+  padding-bottom: 3%;
+  color:white;
+  width:100%
+    
+}
+
+
+/*CSS navigation bar*/
+
+ul {
+  list-style-type: none;
+  width:100%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+/*three part of navigation*/
+li {
+  float: left;
+  width:15%;
+  border-right:1px solid #bbb;
+ 
+}
+li:first-child{
+    margin-left: 28%;
+     border-left:1px solid #bbb;
+  
+}
+/*Links in the navigation*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* when press the navigation */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+/*changing color when navigation button are active*/
+.active {
+  background-color: #4CAF50;
+}
+
+/*for logo above the page*/
+.Logo{
+    margin-left:45%;
+    width:8%;
+    height :14%;
+}
+
+/*Advertising pictures*/
+.advertisinglogo{
+    margin-right:40%;
+    width:55%;
+    height:65%;
+    margin-top: 2%;
+    margin-left: 28%;
+    border:5px solid #bbb;    
+}
+
+
+/*Big picture in advertising section*/
+.advertisinglogo1{
+    
+    width:80%;
+    height:85%;
+    margin-top: 2%;
+    margin-left: 10%;
+    border:5px solid red; 
+}
+
+/*Introduction part*/
+.introduce{
+     width:45%;
+    height:20%;
+    margin-top: 2%;
+    margin-left: 28%;
+     border:2px solid #bbb;
+     text-align: center;
+     background-color:gainsboro;
+}
+
+/*css for input in form with type text when they are selectet */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*css for input in form with type submit */
+input[type=submit]{
+  width: 100%;
+  background-color: rgba(95, 72, 157, 1);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*css for input in form with type submit when the mouse is on it */
+input[type=submit]:hover {
+  background-color: rgba(44, 23, 97, 1);
+}
+
+/*css for introduction part*/
+div {
+  margin-top: 5%;
+  margin-left:29%;
+    width:39%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*css for errors*/
+.error-validation{
+    color:red;
+    font-weight: bold;
+    margin-bottom:100px;
+}
+
+
+/*css for requred fields that need to be complete*/
+.required:after{
+    content:" *";
+    color: red;
+}
+
+
+/*css for requred fields that need to be complete*/
+.required{
+    font-weight: bold;
+}
+
+/*css for comments part*/
+.Comment{
+    width:100%;
+    height:20%;
+    text-align: justify;
+    
+}
+
+/*CSS for order table*/
+.customers {
+width:80%;
+margin-left: 10%;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+align-content: center;
+margin-top: 8%;
+ 
+}
+
+/*CSS for columns order table*/
+.customers td, .customers th {
+  border: 1px solid #544B7A;
+  padding:5px;
+}
+
+/*CSS for row order table*/
+.customers tr{
+  background-color:#DED2F5;
+}
+
+
+
+/*CSS for row order table when mouse are in it*/
+.customers tr:hover {background-color: #ddd;}
+
+/*CSS for lable order table */
+.customers th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  background-color: #776CA1;
+  color: white;
+}
+
+/*CSS for when command print accured*/
+.bodyprint{
+    background-color: white; 
+    opacity: 0.03;
+}
+
+/*CSS for changing backgroound to purple*/
+.bodypurple{
+    background-color:#B1A7C3;
+}
+
+/*CSS for changing backgroound to yellow*/
+.bodyyellow{
+     background-color: #CBC4D6;
+}
+
+/*CSS for button*/
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 43%;
+  margin-top:5%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#776CA1;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  width: 200px;
+  transition: all 2.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 2.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 2.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*use to change color to red*/
+.colorred{
+    color:red;
+}
+
+/*use to change color to green*/
+.colorgreen{
+    color:green;
+}
+
+/*use to change color to orange*/
+.colororange{
+    color:orangel;   
+}
+
+/*use to change color to black*/
+.colorblack{
+    color:black;
+}
